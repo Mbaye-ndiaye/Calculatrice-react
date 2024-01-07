@@ -22,6 +22,8 @@ body{
     background: #333;
     border-radius: 5px;
 }
+
+
 .keypod{
    display: grid;
    grid-template-columns: repeat(4, 1fr);
@@ -34,16 +36,14 @@ input[type='text'] {
     background: #FFff;
     border: 0;
     color: black;
-    display: flex;
-    align-items: end;
+     display: flex;
+    align-items: end; 
     text-align: right;
     font-size: 25px;
     font-weight: 900;
 }
 
-::placeholder {
-    
-}
+
 
 #clear{
     grid-column: 1/ 3;
